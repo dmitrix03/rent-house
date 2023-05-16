@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//style/style.css">
+    <link rel="stylesheet" href="..//style/style.css">
+    <title>Каталог</title>
+</head>
+<body>
+    <header class="header_catalog">
+        <a href="..//pages/main.html"><img class="main_logo_dark" src="..//images/logo_dark.png" alt=""></a>
+        <div class="location_wrapper">
+            <img class="location_image" src="..//images/location.png" alt="">
+            <select class="catalog_header_map" name="" id="">
+                <option>Казань</option>
+                <option value="">Ставрополь</option>
+                <option value="">Москва</option>
+            </select>
+        </div>
+        <button class="catalog_button">Сгенерировать</button>
+        <nav class="header_navigation">
+            <a class="header_catalog_link_navigation" href="#">Частые вопросы</a>
+            <a class="header_catalog_link_navigation" href="#">Сотрудничество</a>
+        </nav>
+        <img class="favourites_image" src="..//images/favourites.png" alt="">        
+        <div  class="search_container">
+            <button class="header_catalog_search_button" type=""><img class="search_image_button" src="..//images/search_catalog.png" alt="">Поиск по названию</button>
+        </div>
+    </header>
+    <div class="catalog_filter_container">
+        <button class="catalog_filter_button">Цена<img class="catalog_button_image" src="..//images/catalog_image.png" alt=""></button>
+        <div class="filter_date_container">
+            <div class="filter_date_wrapper">
+                <input class="filter_date" type="text" placeholder="Въезд">
+                <input class="filter_date" type="text" placeholder="Отъезд">
+            </div>
+            <button class="filter_date_button">Сбросить</button>
+        </div>
+        <button class="catalog_filter_button">С бассейном<img class="catalog_button_image" src="..//images/catalog_image.png" alt=""></button>
+        <button class="catalog_filter_button">Развлечения<img class="catalog_button_image" src="..//images/catalog_image.png" alt=""></button>
+        <button class="catalog_filter_button">Спальни и спальные места<img class="catalog_button_image" src="..//images/catalog_image.png" alt=""></button>
+        <button class="catalog_filter_button">Подборки<img class="catalog_button_image" src="..//images/catalog_image.png" alt=""></button>
+        <button class="catalog_filter_button_application">Заявка на подбор</button>
+        <button class="catalog_filter_button"><img class="catalog_button_image" src="..//images/catalog_filter.png" alt="">Фильтр</button>
+    </div>
+    <div class="main_content_catalog">
+        <div class="catalog_container">
+            <div class="card_product_list">
+                <div class="card_product_wrapper">
+                    <div class="card_slider_wrapper">
+                        <div class="slider_line">
+                            <img class="slider_line_image" src="../images/card_image_catalog.png" alt="">
+                            <img class="slider_line_image" src="..//images/card_catalog_image1.png" alt="">
+                            <img class="slider_line_image" src="../images/card_image_catalog3.png" alt="">
+                            <img class="slider_line_image" src="../images/card_image_catalog4.png" alt="">
+                            <img class="slider_line_image" src="../images/card_image_catalog5.png.crdownload" alt="">
+                        </div>
+                        <div class="card_favorute">
+                            <img class="favourites_image" src="..//images/favourite_image.png" alt="">
+                        </div>
+                        <div class="slider_image_button">
+                            <button class="slider_button button_prev"><ig class="image_button" src="..//images/arrow left.png" alt=""></button>
+                            <button class="slider_button button_next"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                        </div>
+                        <div class="slider_pagination">
+                            <span class="pagination active_pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                        </div>
+                    </div>
+                    <div class="card_description_container">
+                        <div class="card_title_wrapper">
+                            <h4 class="slider_tittle__text">Горки-Сухаревские 1</h4>
+                            <div class="card_title__count-people">
+                                <img class="capacity_image" src="..//images/capacity_image.png" alt="">
+                                <p class="capacity_title">до 35</p>
+                            </div>
+                        </div>
+                        <p class="card_adress">Рублево-Успенское шоссе 24 км от МКАД</p>
+                        <div class="card_description_wrapper">
+                            <div class="card_description__text">
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter1.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">25 спальных мест</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter2.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Настольный теннис</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter4.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Бассейн</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/capter3.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Сауна</p>
+                                </div>
+                            </div>
+                            <div class="card_description_price_wrapper">
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Будни</h4>
+                                    <p class="card_price_subtitle">от 8000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Пятница</h4>
+                                    <p class="card_price_subtitle">от 10 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Суббота</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Воскресенье</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_link">
+                            <a class="card_link_map" href="#">Показать на карте</a>
+                            <a class="card_more_information" href="..//pages/product.html">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_product_wrapper">
+                    <div class="card_slider_wrapper">
+                        <div class="slider_line">
+                            <img src="../images/card_image_catalog.png" alt="">
+                        </div>
+                        <div class="card_favorute">
+                            <img class="favourites_image" src="..//images/favourite_image.png" alt="">
+                        </div>
+                        <div class="slider_image_button">
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                        </div>
+                        <div class="slider_pagination">
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                        </div>
+                    </div>
+                    <div class="card_description_container">
+                        <div class="card_title_wrapper">
+                            <h4 class="slider_tittle__text">Горки-Сухаревские 1</h4>
+                            <div class="card_title__count-people">
+                                <img class="capacity_image" src="..//images/capacity_image.png" alt="">
+                                <p class="capacity_title">до 35</p>
+                            </div>
+                        </div>
+                        <p class="card_adress">Рублево-Успенское шоссе 24 км от МКАД</p>
+                        <div class="card_description_wrapper">
+                            <div class="card_description__text">
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter1.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">25 спальных мест</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter2.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Настольный теннис</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter4.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Бассейн</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/capter3.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Сауна</p>
+                                </div>
+                            </div>
+                            <div class="card_description_price_wrapper">
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Будни</h4>
+                                    <p class="card_price_subtitle">от 8000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Пятница</h4>
+                                    <p class="card_price_subtitle">от 10 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Суббота</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Воскресенье</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_link">
+                            <a class="card_link_map" href="#">Показать на карте</a>
+                            <a class="card_more_information" href="..//pages/product.html">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_product_wrapper">
+                    <div class="card_slider_wrapper">
+                        <div class="slider_line">
+                            <img src="../images/card_image_catalog.png" alt="">
+                        </div>
+                        <div class="card_favorute">
+                            <img class="favourites_image" src="..//images/favourite_image.png" alt="">
+                        </div>
+                        <div class="slider_image_button">
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                        </div>
+                        <div class="slider_pagination">
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                        </div>
+                    </div>
+                    <div class="card_description_container">
+                        <div class="card_title_wrapper">
+                            <h4 class="slider_tittle__text">Горки-Сухаревские 1</h4>
+                            <div class="card_title__count-people">
+                                <img class="capacity_image" src="..//images/capacity_image.png" alt="">
+                                <p class="capacity_title">до 35</p>
+                            </div>
+                        </div>
+                        <p class="card_adress">Рублево-Успенское шоссе 24 км от МКАД</p>
+                        <div class="card_description_wrapper">
+                            <div class="card_description__text">
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter1.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">25 спальных мест</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter2.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Настольный теннис</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter4.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Бассейн</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/capter3.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Сауна</p>
+                                </div>
+                            </div>
+                            <div class="card_description_price_wrapper">
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Будни</h4>
+                                    <p class="card_price_subtitle">от 8000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Пятница</h4>
+                                    <p class="card_price_subtitle">от 10 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Суббота</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Воскресенье</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_link">
+                            <a class="card_link_map" href="#">Показать на карте</a>
+                            <a class="card_more_information" href="..//pages/product.html">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_product_wrapper">
+                    <div class="card_slider_wrapper">
+                        <div class="slider_line">
+                            <img src="../images/card_image_catalog.png" alt="">
+                        </div>
+                        <div class="card_favorute">
+                            <img class="favourites_image" src="..//images/favourite_image.png" alt="">
+                        </div>
+                        <div class="slider_image_button">
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                        </div>
+                        <div class="slider_pagination">
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                        </div>
+                    </div>
+                    <div class="card_description_container">
+                        <div class="card_title_wrapper">
+                            <h4 class="slider_tittle__text">Горки-Сухаревские 1</h4>
+                            <div class="card_title__count-people">
+                                <img class="capacity_image" src="..//images/capacity_image.png" alt="">
+                                <p class="capacity_title">до 35</p>
+                            </div>
+                        </div>
+                        <p class="card_adress">Рублево-Успенское шоссе 24 км от МКАД</p>
+                        <div class="card_description_wrapper">
+                            <div class="card_description__text">
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter1.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">25 спальных мест</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter2.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Настольный теннис</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/chapter4.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Бассейн</p>
+                                </div>
+                                <div class="card_description__element">
+                                    <img src="..//images/capter3.png" alt="" class="card_description__element-image">
+                                    <p class="card_description__element-text">Сауна</p>
+                                </div>
+                            </div>
+                            <div class="card_description_price_wrapper">
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Будни</h4>
+                                    <p class="card_price_subtitle">от 8000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Пятница</h4>
+                                    <p class="card_price_subtitle">от 10 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Суббота</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                                <div class="card_description_price">
+                                    <h4 class="card_price_title">Воскресенье</h4>
+                                    <p class="card_price_subtitle">от 12 000 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_link">
+                            <a class="card_link_map" href="#">Показать на карте</a>
+                            <a class="card_more_information" href="..//pages/product.html">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map_wrapper">
+                <img class="map_image" src="../images/catalog_map_product.png" alt="">
+                <div class="refund_button_wrapper">
+                    <button class="refund_button"><img class="refund_image" src="..//images/refund.png" alt=""></button>
+                </div>
+                <div class="scale_wrapper">
+                    <button class="scale_button"><img class="scale_image" src="..//images/increase.png" alt=""></button>
+                    <button class="scale_button"><img class="scale_image" src="..//images/decrease.png" alt=""></button>
+                </div>
+                <img class="marks_image" src="..//images/markers_image.png" alt="">
+                <div class="card_product_map">
+                    <div class="card_slider_wrapper">
+                        <div class="slider_line">
+                            <img class="card_product_map_image" src="../images/card_map_image.png" alt="">
+                        </div>
+                        <div class="card_favorute_map">
+                            <img class="favourites_image" src="..//images/favourite_image.png" alt="">
+                        </div>
+                        <div class="slider_image_button-map">
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                            <button class="slider_button"><img class="image_button" src="..//images/arrow left.png" alt=""></button>
+                        </div>
+                        <div class="slider_pagination_map">
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                            <span class="pagination"></span>
+                        </div>
+                    </div>
+                    <div class="card_description_container-map">
+                        <div class="card_title_wrapper">
+                            <h4 class="slider_tittle__text">Горки-Сухаревские 1</h4>
+                            <div class="card_title__count-people">
+                                <img class="capacity_image" src="..//images/capacity_image.png" alt="">
+                                <p class="capacity_title">до 35</p>
+                            </div>
+                        </div>
+                        <p class="card_adress">Рублево-Успенское шоссе 24 км <br> от МКАД</p>
+                        <div class="card_description-map">
+                            <div class="card_conveniences_wrapper">
+                                <div class="conveniences">
+                                    <img src="..//images/chapter1.png" alt="">
+                                    <p class="card_description__element-text">25 спальных мест</p>
+                                </div>
+                                <div class="conveniences">
+                                    <img src="..//images/chapter2.png" alt="">
+                                    <p class="card_description__element-text">Развлечения</p>
+                                    <a class="card_more_information" href="..//pages/product.html">Подробнее</a>
+                                </div>
+                                <div class="more_information">
+                                    <p class="show_more">Ещё...</p>
+                                    <p class="more_information_coast">от 12 480 ₽ / сутки</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_logo">
+            <img class="footer_logo_light" src="..//images/logo_light.png" alt="">
+            <div class="main_footer_link">
+                <a class="footer_link" href="">Политика конфиденциальности</a>
+                <a class="footer_link" href="">Согласие на обработку персональных данных</a>
+            </div>
+        </div>
+        <nav class="footer_catalog_naigation">
+            <a class="catalog_link" href="..//pages/catalog.html">Каталог</a>
+            <a href="" class="link_catalog_navigition similar_link">С бассейном</a>
+            <a href="" class="link_catalog_navigition similar_link">Семейные и уютные</a>
+            <a href="" class="link_catalog_navigition similar_link">Хиты продаж</a>
+            <a href="" class="link_catalog_navigition similar_link">Под свадьбы и корпоративы</a>
+            <a href="" class="link_catalog_navigition similar_link">С русской баней на дровах</a>
+        </nav>
+        <div class="main_pages_links">
+            <a class="main_pages_links similar_link" href="">Сотрудничество</a>
+            <a class="main_pages_links similar_link" href="">Частые вопросы</a>
+        </div>
+        <div class="footer_contacts">
+            <div class="phone_wrapper">
+                <img class="contacts_image" src="..//images/phone_image.png" alt="">
+                <p class="contacts_phone similar_link">8 (843) 528-65-48</p>
+            </div>
+            <div class="social_network_footer">
+                <img src="..//images/social_network1.png" alt="" class="social_network">
+                <img src="..//images/social_network2.png" alt="" class="social_network">
+                <img src="..//images/social_network3.png" alt="" class="social_network">
+                <img src="..//images/social_network4.png" alt="" class="social_network">
+                <img src="..//images/social_network5.png" alt="" class="social_network">
+            </div>
+        </div>
+    </footer>
+    <script src="..//script/scriptcatlog.js"></script>
+</body>
+</html>
+
+
+
+  <!-- <div class="waterpool_container">
+            <div>
+                <input class="custom" type="checkbox" id="scales" name="scales" checked>
+                <label for="scales">Scales</label>
+              </div>
+              <div>
+                <input class="custom" type="checkbox" id="scales1" name="scales" checked>
+                <label for="scales1">Scales</label>
+              </div>
+              <div>
+                <input class="custom" type="checkbox" id="scales2" name="scales" checked>
+                <label for="scales2">Scales</label>
+              </div>
+        </div>
